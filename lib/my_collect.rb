@@ -1,8 +1,8 @@
-def hello(array)
+def hello(language)
   i = 0
   collection = []
-  while i < array.length
-    collection << yield(array[i])
+  while i < language.length
+    collection << yield(language[i])
     i += 1
   end
   collection
